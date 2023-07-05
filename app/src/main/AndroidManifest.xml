@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
     <application
         android:allowBackup="true"
@@ -12,7 +14,7 @@
         android:theme="@style/Theme.Location_demo_app"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui_layer.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.Location_demo_app">
@@ -22,6 +24,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyACg7BWXRr1964PpBIVC0te5hRNWyTDePU"/>
     </application>
 
 </manifest>
