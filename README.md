@@ -1,6 +1,6 @@
 # Location_demo_app
 
-# Phone Location Deme Android App
+# Phone Location Demo Android App
 
 The Phone Location Demo Android App is a simple application that demonstrates how to retrieve the current location of an Android device using the device's GPS or network provider. It serves as a basic starting point for developers who want to integrate location-based features into their Android apps.
 

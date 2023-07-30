@@ -1,4 +1,4 @@
-package com.example.location_demo_app.ui.theme
+package com.example.location_demo_app.ui_layer.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
